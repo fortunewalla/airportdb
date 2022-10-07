@@ -70,7 +70,7 @@ e) The `airline` table, `airlinename` fields were expanded them to the correct n
 
 For complete installation instructions, please refer to http://flughafendb.cc
 
-There are two ways to install. The file paths are written assuming you are in the `dbfiles` directory.
+There are two ways to install. The file paths are written assuming you are in the `db` directory.
 
 1. Using `mysql`
 
