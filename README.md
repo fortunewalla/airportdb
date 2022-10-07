@@ -72,7 +72,7 @@ Sometimes, if mysql information schema doesn't register the new tables properly.
 
 2. Using `mysqlsh` (Recommended Method)
 
-`mysqlsh -u <username> -p <password>
+`mysqlsh -u <username> -p <password>`
 
 Once inside the `mysqlsh` shell:
 
