@@ -36,7 +36,25 @@ This database is available in different sizes and forms depending on what source
 
 In the official MySQL website: It is a ~640MB size .ZIP file: https://downloads.mysql.com/docs/airport-db.zip
 
-We use a much smaller version from the source: https://github.com/stefanproell/flughafendb/tree/master/mysql-shell-dumps/flughafendb_small
+We use a much smaller version ~97MB from the source: https://github.com/stefanproell/flughafendb/tree/master/mysql-shell-dumps/flughafendb_small
+
+```bash
+$ git push                                                                             
+Enumerating objects: 66, done.                                                         
+Counting objects: 100% (66/66), done.                                                  
+Delta compression using up to 8 threads                                                
+Compressing objects: 100% (54/54), done.                                               
+Writing objects: 100% (65/65), 143.92 MiB | 111.39 MiB/s, done.                        
+Total 65 (delta 34), reused 0 (delta 0), pack-reused 0                                 
+remote: Resolving deltas: 100% (34/34), done.                                          
+remote: warning: See http://git.io/iEPt8g for more information.                        
+remote: warning: File db/ffdb_data.sql.gz is 96.73 MB; this is larger than GitHub's rec
+ommended maximum file size of 50.00 MB                                                 
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storag
+e - https://git-lfs.github.com.                                                        
+To https://github.com/fortunewalla/airportdb.git                                       
+   fb1420b..829611c  main -> main                                                      
+```
 
 This was modified from the source in the following ways.
 
@@ -52,7 +70,7 @@ e) The `airline` table, `airlinename` fields were expanded them to the correct n
 
 ### Installation
 
-For complete installation instructions, please refer to flughafendb.cc
+For complete installation instructions, please refer to http://flughafendb.cc
 
 There are two ways to install. The file paths are written assuming you are in the `dbfiles` directory.
 
