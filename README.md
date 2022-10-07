@@ -41,9 +41,13 @@ We use a much smaller version from the source: https://github.com/stefanproell/f
 This was modified from the source in the following ways.
 
 a) It was renamed to `ffdb` as an acknowledgement to the original German name of `flughafendb`
+
 b) The `weatherdata` table, `weather` German fields were converted to English
+
 c) The `employee` table, `department` German fields were converted to English
+
 d) The `passengerdetails` table, `sex` German fields were converted to English i.e. from `w` to `f` 
+
 e) The `airline` table, `airlinename` fields were expanded them to the correct names from the uncorrected 20 chars truncated version. 
 
 ### Installation
