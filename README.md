@@ -38,7 +38,7 @@ In the official MySQL website: It is a ~640MB size .ZIP file: https://downloads.
 
 We use a much smaller version ~97MB from the source: https://github.com/stefanproell/flughafendb/tree/master/mysql-shell-dumps/flughafendb_small
 
-```bash
+```shell
 $ git push                                                                             
 Enumerating objects: 66, done.                                                         
 Counting objects: 100% (66/66), done.                                                  
