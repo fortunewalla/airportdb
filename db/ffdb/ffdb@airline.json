@@ -1,0 +1,29 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "airline",
+        "columns": [
+            "airline_id",
+            "iata",
+            "airlinename",
+            "base_airport"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "airline_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

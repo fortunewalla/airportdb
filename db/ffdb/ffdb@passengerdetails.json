@@ -1,0 +1,34 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "passengerdetails",
+        "columns": [
+            "passenger_id",
+            "birthdate",
+            "sex",
+            "street",
+            "city",
+            "zip",
+            "country",
+            "emailaddress",
+            "telephoneno"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "passenger_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

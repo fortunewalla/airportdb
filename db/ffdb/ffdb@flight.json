@@ -1,0 +1,33 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "flight",
+        "columns": [
+            "flight_id",
+            "flightno",
+            "from",
+            "to",
+            "departure",
+            "arrival",
+            "airline_id",
+            "airplane_id"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "flight_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

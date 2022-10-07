@@ -1,0 +1,38 @@
+{
+    "end": "2022-10-07 10:08:29",
+    "dataBytes": 399252355,
+    "tableDataBytes": {
+        "ffdb": {
+            "weatherdata": 256766913,
+            "airline": 3209,
+            "airplane_type": 461366,
+            "flight": 21839556,
+            "passengerdetails": 3795407,
+            "airport_reachable": 0,
+            "flight_log": 0,
+            "airport_geo": 964758,
+            "airplane": 82258,
+            "booking": 113393542,
+            "passenger": 999778,
+            "airport": 250014,
+            "employee": 177658,
+            "flightschedule": 517896
+        }
+    },
+    "chunkFileBytes": {
+        "ffdb@weatherdata@@0.tsv.zst": 256766913,
+        "ffdb@airline@@0.tsv.zst": 3209,
+        "ffdb@airplane_type@@0.tsv.zst": 461366,
+        "ffdb@flight_log.tsv.zst": 0,
+        "ffdb@airport@@0.tsv.zst": 250014,
+        "ffdb@flight@@0.tsv.zst": 21839556,
+        "ffdb@booking@@0.tsv.zst": 113393542,
+        "ffdb@airplane@@0.tsv.zst": 82258,
+        "ffdb@airport_geo.tsv.zst": 964758,
+        "ffdb@passengerdetails@@0.tsv.zst": 3795407,
+        "ffdb@airport_reachable@@0.tsv.zst": 0,
+        "ffdb@passenger@@0.tsv.zst": 999778,
+        "ffdb@employee@@0.tsv.zst": 177658,
+        "ffdb@flightschedule@@0.tsv.zst": 517896
+    }
+}

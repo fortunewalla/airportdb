@@ -1,0 +1,30 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "booking",
+        "columns": [
+            "booking_id",
+            "flight_id",
+            "seat",
+            "passenger_id",
+            "price"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "booking_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

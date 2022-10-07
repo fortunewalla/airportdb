@@ -1,0 +1,38 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "flightschedule",
+        "columns": [
+            "flightno",
+            "from",
+            "to",
+            "departure",
+            "arrival",
+            "airline_id",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "flightno"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

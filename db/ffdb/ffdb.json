@@ -1,0 +1,42 @@
+{
+    "schema": "ffdb",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "weatherdata",
+        "airline",
+        "airplane_type",
+        "flight",
+        "passengerdetails",
+        "airplane",
+        "airport_geo",
+        "airport_reachable",
+        "flight_log",
+        "booking",
+        "airport",
+        "employee",
+        "flightschedule",
+        "passenger"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "weatherdata": "ffdb@weatherdata",
+        "airline": "ffdb@airline",
+        "airplane_type": "ffdb@airplane_type",
+        "flight": "ffdb@flight",
+        "passengerdetails": "ffdb@passengerdetails",
+        "airplane": "ffdb@airplane",
+        "airport_geo": "ffdb@airport_geo",
+        "airport_reachable": "ffdb@airport_reachable",
+        "flight_log": "ffdb@flight_log",
+        "booking": "ffdb@booking",
+        "airport": "ffdb@airport",
+        "employee": "ffdb@employee",
+        "flightschedule": "ffdb@flightschedule",
+        "passenger": "ffdb@passenger"
+    }
+}

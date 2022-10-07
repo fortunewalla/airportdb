@@ -1,0 +1,28 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "airplane_type",
+        "columns": [
+            "type_id",
+            "identifier",
+            "description"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "type_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

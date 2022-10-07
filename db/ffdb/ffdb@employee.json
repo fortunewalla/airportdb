@@ -1,0 +1,40 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "employee",
+        "columns": [
+            "employee_id",
+            "firstname",
+            "lastname",
+            "birthdate",
+            "sex",
+            "street",
+            "city",
+            "zip",
+            "country",
+            "emailaddress",
+            "telephoneno",
+            "salary",
+            "department",
+            "username",
+            "password"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "employee_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

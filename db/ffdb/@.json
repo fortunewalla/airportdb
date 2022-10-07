@@ -1,0 +1,26 @@
+{
+    "dumper": "mysqlsh Ver 8.0.30 for Linux on x86_64 - for MySQL 8.0.30 (MySQL Community Server (GPL))",
+    "version": "2.0.1",
+    "origin": "dumpSchemas",
+    "schemas": [
+        "ffdb"
+    ],
+    "basenames": {
+        "ffdb": "ffdb"
+    },
+    "defaultCharacterSet": "utf8mb4",
+    "tzUtc": true,
+    "bytesPerChunk": 200000000,
+    "user": "mysqluser",
+    "hostname": "localhost.localdomain",
+    "server": "localhost.localdomain",
+    "serverVersion": "8.0.30",
+    "binlogFile": "binlog.000010",
+    "binlogPosition": 157,
+    "gtidExecuted": "",
+    "gtidExecutedInconsistent": false,
+    "consistent": true,
+    "compatibilityOptions": [],
+    "capabilities": [],
+    "begin": "2022-10-07 10:08:03"
+}

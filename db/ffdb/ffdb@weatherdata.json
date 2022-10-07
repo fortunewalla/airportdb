@@ -1,0 +1,36 @@
+{
+    "options": {
+        "schema": "ffdb",
+        "table": "weatherdata",
+        "columns": [
+            "log_date",
+            "time",
+            "station",
+            "temp",
+            "humidity",
+            "airpressure",
+            "wind",
+            "weather",
+            "winddirection"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "log_date",
+        "time",
+        "station"
+    ],
+    "partitions": [],
+    "basenames": {}
+}
