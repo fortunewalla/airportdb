@@ -48,10 +48,8 @@ Writing objects: 100% (65/65), 143.92 MiB | 111.39 MiB/s, done.
 Total 65 (delta 34), reused 0 (delta 0), pack-reused 0                                 
 remote: Resolving deltas: 100% (34/34), done.                                          
 remote: warning: See http://git.io/iEPt8g for more information.                        
-remote: warning: File db/ffdb_data.sql.gz is 96.73 MB; this is larger than GitHub's rec
-ommended maximum file size of 50.00 MB                                                 
-remote: warning: GH001: Large files detected. You may want to try Git Large File Storag
-e - https://git-lfs.github.com.                                                        
+remote: warning: File db/ffdb_data.sql.gz is 96.73 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB                                                 
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.                                                        
 To https://github.com/fortunewalla/airportdb.git                                       
    fb1420b..829611c  main -> main                                                      
 ```
