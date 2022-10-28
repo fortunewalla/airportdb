@@ -96,6 +96,39 @@ Once inside the `mysqlsh` shell:
 
 This should take much less time to install than the `mysql` commands.
 
+3. (Optional) In the original database, some of the tables use the `MyISAM` engine.
+
+```sql
+mysql> select table_name, engine, version, row_format FROM information_schema.tables WHERE table_schema = 'flughafendb_small';
++-------------------+--------+---------+------------+
+| TABLE_NAME        | ENGINE | VERSION | ROW_FORMAT |
++-------------------+--------+---------+------------+
+| airline           | InnoDB |      10 | Dynamic    |
+| airplane          | InnoDB |      10 | Dynamic    |
+| airplane_type     | MyISAM |      10 | Dynamic    |
+| airport           | InnoDB |      10 | Dynamic    |
+| airport_geo       | MyISAM |      10 | Dynamic    |
+| airport_reachable | MEMORY |      10 | Fixed      |
+| booking           | InnoDB |      10 | Dynamic    |
+| employee          | InnoDB |      10 | Dynamic    |
+| flight            | InnoDB |      10 | Dynamic    |
+| flight_log        | InnoDB |      10 | Dynamic    |
+| flightschedule    | InnoDB |      10 | Dynamic    |
+| passenger         | InnoDB |      10 | Dynamic    |
+| passengerdetails  | InnoDB |      10 | Dynamic    |
+| weatherdata       | MyISAM |      10 | Fixed      |
++-------------------+--------+---------+------------+
+14 rows in set (0.00 sec)
+```
+If you wish to change them to `InnoDB` Engine, use the following command `ALTER TABLE table_name ENGINE engine_name;` and excute the following commands.
+
+```sql
+alter table airplane_type engine innodb;
+alter airport_geo engine innodb;
+alter airport_reachable engine innodb;
+alter weatherdata engine innodb;
+```
+
 This is all the setup we need for now. Henceforth, we will start exploring the database.
 
 ### 
