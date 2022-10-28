@@ -124,9 +124,9 @@ If you wish to change them to `InnoDB` Engine, use the following command `ALTER 
 
 ```sql
 alter table airplane_type engine innodb;
-alter airport_geo engine innodb;
-alter airport_reachable engine innodb;
-alter weatherdata engine innodb;
+alter table airport_geo engine innodb;
+alter table airport_reachable engine innodb;
+alter table weatherdata engine innodb;
 ```
 
 This is all the setup we need for now. Henceforth, we will start exploring the database.
